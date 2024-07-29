@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @anushka7220
+- 👋 Hi, I’m Anushka
 - 🌱 I’m currently learning generative AI
 - ⚡ Fun fact: my surname is sharma 
 
