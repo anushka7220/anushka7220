@@ -7,7 +7,7 @@
 ### 🚀 About Me
 
 - 🎓 Pursuing B.Tech at [J.C. Bose University of Science and Technology](https://jcboseust.ac.in) (2022-2026).
-- 💡 Passionate about **AI/ML**, **Frontend Development**, and creating impactful projects.
+- 💡 Passionate about **AI/ML**, **Data Structures and Algorithms**, and creating impactful projects.
 - 🌱 Currently exploring **Hugging Face**, **Generative AI**, and **MLFLOw**.
 - 💬 Ask me about **NLP**, **Data Structures and Algorithms (DSA)**, and **Open Source Contributions**.
 - ⚡ Fun Fact: I'm a vegetarian 🥗 and love solving coding challenges on LeetCode.
