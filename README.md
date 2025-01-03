@@ -42,6 +42,15 @@
 ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ---
+### 📫 Connect with Me
+
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anushkasharma3704@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka37/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/anushka7220)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/anushka_sh7220/)
+[![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat&logo=codechef&logoColor=white)](https://www.codechef.com/users/anushkasharma3)  
+
+---
 
 ### 🌟 Projects
 
@@ -77,14 +86,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=anushka7220&show_icons=true&theme=radical" alt="Anushka's GitHub stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anushka7220&theme=radical" alt="Anushka's GitHub streak" />
 </p>
-
----
-
-### 📫 Connect with Me
-
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anushkasharma3704@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka37/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/anushka7220)
 
 ---
 
