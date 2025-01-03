@@ -10,7 +10,7 @@
 - 💡 Passionate about **AI/ML**, **Data Structures and Algorithms**, and creating impactful projects.
 - 🌱 Currently exploring **Hugging Face**, **Generative AI**, and **MLFLOw**.
 - 💬 Ask me about **NLP**, **Data Structures and Algorithms (DSA)**, and **Open Source Contributions**.
-- ⚡ Fun Fact: I'm a vegetarian 🥗 ,**O-negative blood donor** and love solving coding challenges on LeetCode.
+- ⚡ Fun Fact: I'm a vegetarian 🥗 and love solving coding challenges on LeetCode.
 
 ---
 
