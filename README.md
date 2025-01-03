@@ -6,7 +6,7 @@
 
 ### 🚀 About Me
 
-- 🎓 Pursuing **B.Tech ** at [J.C. Bose University of Science and Technology](https://jcboseust.ac.in) (2022-2026).
+- 🎓 Pursuing B.Tech at [J.C. Bose University of Science and Technology](https://jcboseust.ac.in) (2022-2026).
 - 💡 Passionate about **AI/ML**, **Frontend Development**, and creating impactful projects.
 - 🌱 Currently exploring **Hugging Face**, **Generative AI**, and **MLFLOw**.
 - 💬 Ask me about **NLP**, **Data Structures and Algorithms (DSA)**, and **Open Source Contributions**.
@@ -83,7 +83,7 @@
 ### 📫 Connect with Me
 
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anushkasharma3704@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka-sharma-37/)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka37/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/anushka7220)
 
 ---
