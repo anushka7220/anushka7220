@@ -10,7 +10,7 @@
 - 💡 Passionate about **AI/ML**, **Data Structures and Algorithms**, and creating impactful projects.
 - 🌱 Currently exploring **Hugging Face**, **Generative AI**, and **MLFLOw**.
 - 💬 Ask me about **NLP**, **Data Structures and Algorithms (DSA)**, and **Open Source Contributions**.
-- ⚡ Fun Fact: I'm a vegetarian 🥗 and love solving coding challenges on LeetCode.
+- ⚡ Fun Fact: I'm a vegetarian 🥗 ,**O-negative blood donor** and love solving coding challenges on LeetCode.
 
 ---
 
@@ -52,26 +52,6 @@
 
 ---
 
-### 🌟 Projects
-
-1. **[Personalized Learning Path Generator](#)**  
-   🧠 AI-powered platform to create customized study plans with resource tracking and adaptive learning.
-
-2.  **[Abstract decoder](#)**  
-   🤖 Machine learning model which decodes an abstract in seconds.
-
-
-3. **[Crop Prediction Model](#)**  
-   🌾 Flask application that predicts the best crops based on environmental parameters.
-
-4. **[Exchange Rate Prediction Model](#)**  
-   📈 LSTM-based model to forecast currency exchange rates with high accuracy.
-
-5. **[Weather Forecasting App](#)**  
-   ☁️ A Python-based weather prediction app using OpenWeatherMap API.
-
----
-
 ### 🏆 Achievements
 
 - 🥈 **Google Girl Hackathon 2024** - Advanced to Round 2.
@@ -87,11 +67,4 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anushka7220&theme=radical" alt="Anushka's GitHub streak" />
 </p>
 
----
 
-### 🎨 Fun Facts
-
-- 🌍 I'm an **O-negative blood donor**.
-- 🌱 Working on building AI applications to help rural students in India excel in education.
-
----
