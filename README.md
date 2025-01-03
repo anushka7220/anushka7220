@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Anushka Sharma!
 
-🌟 **Aspiring AI/ML Developer | Open Source Contributor | MLOPS Enthusiast**
+🌟 **Aspiring AI/ML Developer | Open Source Contributor | DSA/CP Enthusiast**
 
 ---
 
