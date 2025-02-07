@@ -56,7 +56,7 @@
 
 - 🥈 **Google Girl Hackathon 2024** - Advanced to Round 2.
 - 💻 **Girl Script Summer of Code 2024** - Open Source Contributor.
-- 🎖️ **Session Head** of University Computer Centre and Digital Affairs Cell at YMCA.
+- 🎖️ **Senior Coordinator** of University Computer Centre and Digital Affairs Cell at YMCA.
 
 ---
 
