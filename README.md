@@ -1,7 +1,6 @@
-<img width="1584" height="396" alt="Black and White Illustrative Manager LinkedIn Banner (6)" src="https://github.com/user-attachments/assets/9af826dc-24fc-4bff-be83-1f8bd78c8424" />
+<img width="1584" height="396" alt="Black and White Illustrative Manager LinkedIn Banner (6)" src="https://github.com/user-attachments/assets/184b0d7d-d059-4785-8d4c-634e291b5795" />
 
 
-# 👋 Hi, I'm Anushka Sharma!
 
 🌟 **Aspiring AI/ML Developer | Open Source Contributor | DSA/CP Enthusiast**
 
