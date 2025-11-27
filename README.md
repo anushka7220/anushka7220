@@ -1,8 +1,5 @@
 <img width="1050" height="600" alt="Hii, I am Anushka" src="https://github.com/user-attachments/assets/ee369481-31ae-4ff8-8538-a0427c802f8a" />
 
-
-🌟 **Aspiring AI/ML Developer | Open Source Contributor | DSA/CP Enthusiast**
-
 ---
 
 ### 🚀 About Me
