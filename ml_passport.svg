@@ -1,0 +1,62 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+      .text { font-family: 'Courier Prime', monospace; fill: #333; }
+      .label { font-size: 10px; fill: #666; font-weight: bold; }
+      .value { font-size: 14px; font-weight: bold; }
+      .title { font-size: 18px; font-weight: bold; fill: white; letter-spacing: 2px; }
+    </style>
+    <clipPath id="circleView">
+      <circle cx="60" cy="160" r="40" />
+    </clipPath>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="0" y="0" width="400" height="250" rx="15" fill="#FFC0CB" /> <!-- Pink Base -->
+  <rect x="0" y="0" width="400" height="50" rx="15" fill="#D63384" />  <!-- Dark Pink Header -->
+  <rect x="0" y="40" width="400" height="15" fill="#D63384" />         <!-- Square off bottom of header -->
+  
+  <!-- Header Text -->
+  <text x="20" y="32" class="title">ML ENGINEER PASS</text>
+  <circle cx="360" cy="25" r="15" fill="white" opacity="0.2"/>
+  <circle cx="360" cy="25" r="10" fill="white" opacity="0.4"/>
+
+  <!-- Inner White Card Area -->
+  <rect x="20" y="70" width="360" height="160" rx="10" fill="white" fill-opacity="0.9" />
+
+  <!-- Avatar Image (Pulls your GitHub Profile Pic) -->
+  <circle cx="60" cy="150" r="43" fill="#D63384" />
+  <image xlink:href="https://github.com/anushka7220.png" x="20" y="110" height="80" width="80" clip-path="url(#circleView)" />
+
+  <!-- Data Fields -->
+  <!-- Name -->
+  <text x="120" y="100" class="label">PASSENGER / ENGINEER</text>
+  <text x="120" y="120" class="value" font-size="20">ANUSHKA</text>
+
+  <!-- Role -->
+  <text x="120" y="145" class="label">CLASS</text>
+  <text x="120" y="160" class="value">ML ENGINEER</text>
+
+  <!-- Seat -->
+  <text x="240" y="145" class="label">SEAT</text>
+  <text x="240" y="160" class="value">GPU-01</text>
+
+  <!-- Destination -->
+  <text x="120" y="190" class="label">DESTINATION</text>
+  <text x="120" y="205" class="value">A.G.I.</text>
+
+  <!-- Stamps / Decor -->
+  <!-- Stamp 1 -->
+  <circle cx="330" cy="110" r="25" fill="none" stroke="#58a6ff" stroke-width="2" transform="rotate(-15 330 110)"/>
+  <text x="330" y="115" text-anchor="middle" font-size="8" fill="#58a6ff" transform="rotate(-15 330 110)">PYTHON</text>
+  
+  <!-- Stamp 2 -->
+  <rect x="300" y="170" width="50" height="30" fill="none" stroke="#2ea44f" stroke-width="2" rx="4" transform="rotate(10 325 185)"/>
+  <text x="325" y="188" text-anchor="middle" font-size="8" fill="#2ea44f" transform="rotate(10 325 185)">VERIFIED</text>
+
+  <!-- Barcode Simulation -->
+  <g transform="translate(20, 250) rotate(-90)">
+     <!-- Decorative barcode lines would go here, simplified for clarity -->
+  </g>
+</svg>
