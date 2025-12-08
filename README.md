@@ -1,29 +1,36 @@
 <div align="center">
   
-  <!-- This is the "Typing" effect SVG. It types out your roles automatically -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Anushka;Machine+Learning+Engineer;Web+Developer;Creative+Thinker" alt="Typing SVG" />
+  <!-- Typing effect -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=FF6FAE&center=true&vCenter=true&width=520&lines=Hi%2C+I'm+Anushka;Machine+Learning+Engineer;Web+Developer;Creative+Thinker" alt="Typing SVG" />
 
 </div>
 
-<!-- The Interactive Table: Neural Network on Left, Info on Right -->
+<!-- Neural Network + Profile Block -->
 <table align="center" width="100%" style="border: none;">
   <tr>
     <td width="55%" align="center" style="border: none;">
-       <!-- CHANGE THE LINK BELOW TO POINT TO YOUR REPO FILE ONCE UPLOADED -->
-       <!-- Example: https://github.com/anushka7220/anushka7220/blob/main/neural_network.svg?raw=true -->
+
+       <!-- ID Card (update the path after upload) -->
+       <img src="./code_gadet_license.png" alt="Code Cadet License" width="100%">
+
+       <br/>
+
+       <!-- Neural Network Animation (pink theme) -->
+       <!-- Make sure this path matches your repo file -->
        <img src="./neural_network.svg" alt="Neural Network Animation" width="100%">
+
     </td>
     <td width="45%" align="left" style="border: none;">
       <h3>🚀 About Me</h3>
       <p>
-        I blend <b>Creativity</b> with <b>Engineering</b> to make technology more human.
+        I blend <b>creativity</b> with <b>engineering</b> to make technology feel more <b>human</b>.
       </p>
       <ul>
          <li>🎓 <b>B.Tech Student</b> at <a href="https://jcboseust.ac.in">J.C. Bose UST</a> (2022-2026)</li>
-         <li>💡 Passionate about <b>NLP, Multimodal AI</b> & <b>System Design</b></li>
-         <li>🎨 <b>Web Dev Enthusiast</b>: I love crafting beautiful UIs for powerful models.</li>
-         <li>🏆 <b>Google Girl Hackathon '24</b> (Round 2)</li>
-         <li>💻 <b>GSSoC '24</b> Contributor</li>
+         <li>💡 Exploring <b>NLP</b>, <b>Multimodal AI</b> & <b>System Design</b></li>
+         <li>🎨 <b>Web Dev Enthusiast</b> crafting beautiful UIs for powerful models</li>
+         <li>🏆 Selected for <b>Google Girl Hackathon '24</b> (Round 2)</li>
+         <li>💻 <b>GSSoC '24</b> Open-Source Contributor</li>
          <li>🎖️ <b>Senior Coordinator</b> at UCC & DAC, YMCA</li>
       </ul>
       <p>
@@ -70,7 +77,7 @@
 
   <br/><br/>
   
-  <!-- Footer Snake Animation (Game) -->
-  <img src="https://github.com/anushka7220/anushka7220/actions/workflows/snake.yml/badge.svg" alt="Snake Animation Placeholder - You need to set up the workflow for this!">
+  <!-- Snake Animation Badge -->
+  <img src="https://github.com/anushka7220/anushka7220/actions/workflows/snake.yml/badge.svg" alt="Snake Animation Workflow">
 
 </div>
