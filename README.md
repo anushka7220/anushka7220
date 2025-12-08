@@ -10,7 +10,7 @@
       <td align="center" width="40%">
         <img 
           src="https://github.com/user-attachments/assets/c4385b31-03fb-4d0e-b385-da1446a2ecbc" 
-          width="400"
+          width="500"
           style="border-radius: 50%;
                  transform: rotate(-4deg);
                  box-shadow: 0 0 25px rgba(255, 111, 174, 0.45);"
@@ -53,7 +53,27 @@
 - 🎓 **J.C. Bose UST** (2022-2026)
 
 <hr/>
+<h3 align="center">🛠️ Tech Stack</h3>
 
+<p align="center">
+  <!-- Icon row -->
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,html,css,react,flask,django,tensorflow,opencv,git,postman" />
+</p>
+
+<!-- Cute “pill” buttons for quick glance -->
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-%20TensorFlow%20·%20Keras%20·%20NLP-8D6672?style=for-the-badge&labelColor=FFE7EE" />
+  <img src="https://img.shields.io/badge/Web-%20React%20·%20Flask%20·%20Django-8D6672?style=for-the-badge&labelColor=FFE7EE" />
+  <img src="https://img.shields.io/badge/Tools-%20Git%20·%20Postman%20·%20VS%20Code-8D6672?style=for-the-badge&labelColor=FFE7EE" />
+</p>
+
+<!-- Optional: contribution graph with your vibe -->
+<p align="center">
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=anushka7220&bg_color=0D1117&color=FFDFE9&line=FF9EB5&point=FF9EB5&area=true&hide_border=true"
+    alt="Contribution Graph"
+  />
+</p>
 <h3 align="center">📊 GitHub Analytics</h3>
 
 <p align="center">
