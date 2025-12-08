@@ -5,7 +5,7 @@
   <br/>
 
   <!-- Profile Image Circle -->
-  <img src="https://github.com/user-attachments/assets/c4385b31-03fb-4d0e-b385-da1446a2ecbc" width="200" style="border-radius: 50%;" />
+  <img src="https://github.com/user-attachments/assets/c4385b31-03fb-4d0e-b385-da1446a2ecbc" width="500" style="border-radius: 50%;" />
 
   <h3>🚀 B.Tech Student | Machine Learning Engineer | AI Enthusiast </h3>
   
