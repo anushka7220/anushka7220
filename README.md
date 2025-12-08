@@ -58,13 +58,6 @@
 
 <p align="center">
   <img 
-    src="https://github-readme-stats.vercel.app/api?username=anushka7220&show_icons=true&bg_color=FFE7EE&title_color=8D6672&text_color=8D6672&icon_color=8D6672&hide_border=true"
-    height="165"
-  />
-</p>
-
-<p align="center">
-  <img 
     src="https://streak-stats.demolab.com?user=anushka7220&background=FFE7EE&ring=8D6672&fire=8D6672&currStreakLabel=8D6672&sideLabels=8D6672&dates=8D6672&stroke=8D6672&border=FFE7EE"
     height="165"
   />
