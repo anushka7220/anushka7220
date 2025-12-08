@@ -4,9 +4,34 @@
 
   <br/>
 
-  <!-- Profile Image Circle -->
-  <img src="https://github.com/user-attachments/assets/c4385b31-03fb-4d0e-b385-da1446a2ecbc" width="500" style="border-radius: 50%;" />
+<table align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <!-- ID Card (Smaller + Tilt + Soft Glow) -->
+    <td align="center" width="40%">
+      <img 
+        src="https://github.com/user-attachments/assets/c4385b31-03fb-4d0e-b385-da1446a2ecbc" 
+        width="250"
+        style="border-radius: 50%;
+               transform: rotate(-4deg);
+               box-shadow: 0 0 25px rgba(255, 111, 174, 0.45);"
+      />
+    </td>
 
+   
+  <td align="center" width="60%">
+      <img 
+        src="https://raw.githubusercontent.com/anushka7220/anushka7220/main/neural_network.svg" 
+        width="560"
+        style="box-shadow: 0 0 35px rgba(255, 111, 174, 0.35);"
+      />
+    </td>
+  </tr>
+</table>
+
+
+
+
+  </div>
   <h3>🚀 B.Tech Student | Machine Learning Engineer | AI Enthusiast </h3>
   
   <p width="60%">
