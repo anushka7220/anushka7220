@@ -11,10 +11,9 @@
   </defs>
 
   <style>
-    /* Animations */
     @keyframes pulse {
-      0%, 100% { fill: #0d1117; stroke: #30363d; stroke-width: 2; r: 6; }
-      50% { fill: #58a6ff; stroke: #58a6ff; stroke-width: 4; r: 9; }
+      0%, 100% { fill: #0d1117; stroke: #403148; stroke-width: 2; r: 6; }
+      50% { fill: #FF6FAE; stroke: #FF6FAE; stroke-width: 4; r: 9; }
     }
     
     @keyframes flow {
@@ -24,13 +23,13 @@
     }
 
     /* Node Styles */
-    .node { fill: #0d1117; stroke: #30363d; stroke-width: 2; }
+    .node { fill: #0d1117; stroke: #403148; stroke-width: 2; }
     .node-active { animation: pulse 3s infinite ease-in-out; }
     
     /* Connection Styles */
-    .link { stroke: #30363d; stroke-width: 1; opacity: 0.3; }
+    .link { stroke: #403148; stroke-width: 1; opacity: 0.3; }
     .link-active { 
-      stroke: #58a6ff; 
+      stroke: #FF6FAE; 
       stroke-width: 2; 
       stroke-dasharray: 10 90; 
       stroke-linecap: round;
@@ -39,14 +38,12 @@
     }
   </style>
 
-  <!-- Background (Optional, transparent by default) -->
-  
   <!-- Connections (Layer 1 to 2) -->
-  <line x1="100" y1="50" x2="400" y2="100" class="link-active" style="animation-delay: 0s;"/>
+  <line x1="100" y1="50"  x2="400" y2="100" class="link-active" style="animation-delay: 0s;"/>
   <line x1="100" y1="150" x2="400" y2="100" class="link"/>
   <line x1="100" y1="250" x2="400" y2="100" class="link-active" style="animation-delay: 0.5s;"/>
   
-  <line x1="100" y1="50" x2="400" y2="200" class="link"/>
+  <line x1="100" y1="50"  x2="400" y2="200" class="link"/>
   <line x1="100" y1="150" x2="400" y2="200" class="link-active" style="animation-delay: 1s;"/>
   <line x1="100" y1="250" x2="400" y2="200" class="link"/>
 
@@ -55,7 +52,7 @@
   <line x1="400" y1="200" x2="700" y2="150" class="link"/>
 
   <!-- Input Layer Nodes -->
-  <circle cx="100" cy="50" r="6" class="node-active" style="animation-delay: 0s;"/>
+  <circle cx="100" cy="50"  r="6" class="node-active" style="animation-delay: 0s;"/>
   <circle cx="100" cy="150" r="6" class="node"/>
   <circle cx="100" cy="250" r="6" class="node-active" style="animation-delay: 0.5s;"/>
 
@@ -66,8 +63,8 @@
   <!-- Output Layer Node -->
   <circle cx="700" cy="150" r="6" class="node-active" style="animation-delay: 2s;"/>
   
-  <!-- Text Labels (Cyberpunk Style) -->
-  <text x="100" y="285" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">INPUT</text>
-  <text x="400" y="235" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">HIDDEN LAYERS</text>
-  <text x="700" y="185" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">OUTPUT</text>
+  <!-- Text Labels -->
+  <text x="100" y="285" fill="#f4a6c8" font-family="monospace" font-size="12" text-anchor="middle">INPUT</text>
+  <text x="400" y="235" fill="#f4a6c8" font-family="monospace" font-size="12" text-anchor="middle">HIDDEN LAYERS</text>
+  <text x="700" y="185" fill="#f4a6c8" font-family="monospace" font-size="12" text-anchor="middle">OUTPUT</text>
 </svg>
