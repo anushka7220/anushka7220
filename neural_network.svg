@@ -1,0 +1,73 @@
+<svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Glow Filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Animations */
+    @keyframes pulse {
+      0%, 100% { fill: #0d1117; stroke: #30363d; stroke-width: 2; r: 6; }
+      50% { fill: #58a6ff; stroke: #58a6ff; stroke-width: 4; r: 9; }
+    }
+    
+    @keyframes flow {
+      0% { stroke-dashoffset: 100; opacity: 0; }
+      50% { opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+
+    /* Node Styles */
+    .node { fill: #0d1117; stroke: #30363d; stroke-width: 2; }
+    .node-active { animation: pulse 3s infinite ease-in-out; }
+    
+    /* Connection Styles */
+    .link { stroke: #30363d; stroke-width: 1; opacity: 0.3; }
+    .link-active { 
+      stroke: #58a6ff; 
+      stroke-width: 2; 
+      stroke-dasharray: 10 90; 
+      stroke-linecap: round;
+      animation: flow 2s infinite linear; 
+      filter: url(#glow);
+    }
+  </style>
+
+  <!-- Background (Optional, transparent by default) -->
+  
+  <!-- Connections (Layer 1 to 2) -->
+  <line x1="100" y1="50" x2="400" y2="100" class="link-active" style="animation-delay: 0s;"/>
+  <line x1="100" y1="150" x2="400" y2="100" class="link"/>
+  <line x1="100" y1="250" x2="400" y2="100" class="link-active" style="animation-delay: 0.5s;"/>
+  
+  <line x1="100" y1="50" x2="400" y2="200" class="link"/>
+  <line x1="100" y1="150" x2="400" y2="200" class="link-active" style="animation-delay: 1s;"/>
+  <line x1="100" y1="250" x2="400" y2="200" class="link"/>
+
+  <!-- Connections (Layer 2 to 3) -->
+  <line x1="400" y1="100" x2="700" y2="150" class="link-active" style="animation-delay: 1.5s;"/>
+  <line x1="400" y1="200" x2="700" y2="150" class="link"/>
+
+  <!-- Input Layer Nodes -->
+  <circle cx="100" cy="50" r="6" class="node-active" style="animation-delay: 0s;"/>
+  <circle cx="100" cy="150" r="6" class="node"/>
+  <circle cx="100" cy="250" r="6" class="node-active" style="animation-delay: 0.5s;"/>
+
+  <!-- Hidden Layer Nodes -->
+  <circle cx="400" cy="100" r="6" class="node-active" style="animation-delay: 1s;"/>
+  <circle cx="400" cy="200" r="6" class="node"/>
+
+  <!-- Output Layer Node -->
+  <circle cx="700" cy="150" r="6" class="node-active" style="animation-delay: 2s;"/>
+  
+  <!-- Text Labels (Cyberpunk Style) -->
+  <text x="100" y="285" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">INPUT</text>
+  <text x="400" y="235" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">HIDDEN LAYERS</text>
+  <text x="700" y="185" fill="#8b949e" font-family="monospace" font-size="12" text-anchor="middle">OUTPUT</text>
+</svg>
