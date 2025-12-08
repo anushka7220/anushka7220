@@ -1,68 +1,76 @@
-<img width="1050" height="600" alt="Hii, I am Anushka" src="https://github.com/user-attachments/assets/ee369481-31ae-4ff8-8538-a0427c802f8a" />
-
----
-
-### 🚀 About Me
-
-- 🎓 Pursuing B.Tech at [J.C. Bose University of Science and Technology](https://jcboseust.ac.in) (2022-2026).
-- 💡 Passionate about **AI/ML**, **Data Structures and Algorithms**, and creating impactful projects.
-- NLP + Multimodal AI for human-centered intelligence.
-- Designing scalable AI systems with real-world impact.
-- Open-source contributions and collaborative innovation.
-- Blending creativity with engineering to make technology more human.
+<div align="center">
   
----
+  <!-- This is the "Typing" effect SVG. It types out your roles automatically -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Anushka;Machine+Learning+Engineer;Web+Developer;Creative+Thinker" alt="Typing SVG" />
 
-### 🛠️ Skills & Technologies
+</div>
 
-#### **Languages**
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black)
+<!-- The Interactive Table: Neural Network on Left, Info on Right -->
+<table align="center" width="100%" style="border: none;">
+  <tr>
+    <td width="55%" align="center" style="border: none;">
+       <!-- CHANGE THE LINK BELOW TO POINT TO YOUR REPO FILE ONCE UPLOADED -->
+       <!-- Example: https://github.com/anushka7220/anushka7220/blob/main/neural_network.svg?raw=true -->
+       <img src="./neural_network.svg" alt="Neural Network Animation" width="100%">
+    </td>
+    <td width="45%" align="left" style="border: none;">
+      <h3>🚀 About Me</h3>
+      <p>
+        I blend <b>Creativity</b> with <b>Engineering</b> to make technology more human.
+      </p>
+      <ul>
+         <li>🎓 <b>B.Tech Student</b> at <a href="https://jcboseust.ac.in">J.C. Bose UST</a> (2022-2026)</li>
+         <li>💡 Passionate about <b>NLP, Multimodal AI</b> & <b>System Design</b></li>
+         <li>🎨 <b>Web Dev Enthusiast</b>: I love crafting beautiful UIs for powerful models.</li>
+         <li>🏆 <b>Google Girl Hackathon '24</b> (Round 2)</li>
+         <li>💻 <b>GSSoC '24</b> Contributor</li>
+         <li>🎖️ <b>Senior Coordinator</b> at UCC & DAC, YMCA</li>
+      </ul>
+      <p>
+        <a href="mailto:anushkasharma3704@gmail.com"><img src="https://img.shields.io/badge/Email-Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+        <a href="https://www.linkedin.com/in/anushka37/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
-#### **Frameworks & Libraries**
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+<div align="center">
+  
+  <h3>🛠️ Tech Stack & Arsenal</h3>
 
-#### **Tools & Platforms**
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)
-![Heroku](https://img.shields.io/badge/-Heroku-430098?style=flat&logo=heroku&logoColor=white)
-![Google Colab](https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=black)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/-PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
+  <!-- Languages -->
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black">
+  
+  <br/>
 
----
-### 📫 Connect with Me
+  <!-- ML Stack -->
+  <img src="https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white">
+  <img src="https://img.shields.io/badge/-Keras-D00000?style=flat&logo=keras&logoColor=white">
+  <img src="https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white">
+  <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white">
+  <img src="https://img.shields.io/badge/-Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=black">
 
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anushkasharma3704@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anushka37/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/anushka7220)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/anushka_sh7220/)
+  <br/>
 
----
+  <!-- Web Stack -->
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/-Django-092E20?style=flat&logo=django&logoColor=white">
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">
 
-### 🏆 Achievements
+  <br/><br/>
 
-- 🥈 **Google Girl Hackathon 2024** - Advanced to Round 2.
-- 💻 **Girl Script Summer of Code 2024** - Open Source Contributor.
-- 🎖️ **Senior Coordinator** of University Computer Centre and Digital Affairs Cell at YMCA.
+  <!-- Stats Section -->
+  <img src="https://github-readme-stats.vercel.app/api?username=anushka7220&show_icons=true&theme=midnight-d&hide_border=true" height="160" alt="Anushka's GitHub stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anushka7220&theme=midnight-d&hide_border=true" height="160" alt="Anushka's GitHub streak" />
 
----
+  <br/><br/>
+  
+  <!-- Footer Snake Animation (Game) -->
+  <img src="https://github.com/anushka7220/anushka7220/actions/workflows/snake.yml/badge.svg" alt="Snake Animation Placeholder - You need to set up the workflow for this!">
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anushka7220&show_icons=true&theme=radical" alt="Anushka's GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anushka7220&theme=radical" alt="Anushka's GitHub streak" />
-</p>
-
-
+</div>
