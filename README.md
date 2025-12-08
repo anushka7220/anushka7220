@@ -10,7 +10,7 @@
       <td align="center" width="40%">
         <img 
           src="https://github.com/user-attachments/assets/c4385b31-03fb-4d0e-b385-da1446a2ecbc" 
-          width="500"
+          width="700"
           style="border-radius: 50%;
                  transform: rotate(-4deg);
                  box-shadow: 0 0 25px rgba(255, 111, 174, 0.45);"
