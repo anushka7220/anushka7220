@@ -46,11 +46,31 @@
 
 <hr/>
 
-### ⚡ Highlights
-- 🏆 **Google Girl Hackathon '24** (Round 2)
-- 💻 **GSSoC '24** Contributor
-- 💡 Focus: **NLP, Multimodal AI, System Design**
-- 🎓 **J.C. Bose UST** (2022-2026)
+### Technical Skills
+
+⭐️Strong understanding of ML fundamentals  
+⭐️Experience with Python & scikit-learn  
+⭐️Experience with PyTorch or TensorFlow  
+⭐️Ability to preprocess large datasets  
+⭐️Understanding of model evaluation metrics  
+⭐️Experience deploying ML models via APIs  
+⭐️Familiarity with SQL  
+
+### Production & Applied ML Skills
+
+⭐️Model deployment via Flask/FastAPI   
+⭐️Containerization using Docker  
+⭐️Cloud deployment (AWS – EC2, S3)  
+⭐️Experience with LLMs & Transformers  
+⭐️Understanding of production ML pipelines  
+
+### Highlights
+
+🏆 **Google Girl Hackathon '24** (Round 2)  
+💻 **GSSoC '24** Contributor    
+⚙️ **MLOps Intern** – Designed scalable CI/CD and deployment workflows for a low-resource language ASR system, enhancing model reliability and production readiness.  
+💡 Focus: **NLP, Multimodal AI, System Design**  
+🎓 **J.C. Bose UST** (2022-2026)
 
 <hr/>
 <h3 align="center">🛠️ Tech Stack</h3>
