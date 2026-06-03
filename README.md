@@ -28,10 +28,10 @@
     </tr>
   </table>
 
-  <h3>👩🏻‍💻 B.Tech Student | Machine Learning Enthusiast | Full Stack</h3>
+  <h3>👩🏻‍💻 Software Engineer | AI/ML | Building Systems </h3>
   
   <p width="60%">
-    <i>Designing expressive interfaces and intelligent systems where creativity meets machine learning.</i>
+    <i>My agents have better reasoning loops than I do</i>
   </p>
 
  <!-- Social Icons -->
