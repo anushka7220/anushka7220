@@ -1,70 +1,252 @@
-<svg width="100%" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Glow Filter -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF5F8"/>
+      <stop offset="45%" stop-color="#FF9EB5"/>
+      <stop offset="100%" stop-color="#FF6FAE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#FFDFE9"/>
+      <stop offset="100%" stop-color="#FF6FAE"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8D6672" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#FF9EB5" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8D6672" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
-  <style>
-    @keyframes pulse {
-      0%, 100% { fill: #0d1117; stroke: #403148; stroke-width: 2; r: 6; }
-      50% { fill: #FF6FAE; stroke: #FF6FAE; stroke-width: 4; r: 9; }
-    }
-    
-    @keyframes flow {
-      0% { stroke-dashoffset: 100; opacity: 0; }
-      50% { opacity: 1; }
-      100% { stroke-dashoffset: 0; opacity: 0; }
-    }
+  <!-- ============ LAYER NODE COORDINATES ============ -->
+  <!-- Input layer x=90, Hidden1 x=290, Hidden2 x=460, Output x=630 -->
 
-    /* Node Styles */
-    .node { fill: #0d1117; stroke: #403148; stroke-width: 2; }
-    .node-active { animation: pulse 3s infinite ease-in-out; }
-    
-    /* Connection Styles */
-    .link { stroke: #403148; stroke-width: 1; opacity: 0.3; }
-    .link-active { 
-      stroke: #FF6FAE; 
-      stroke-width: 2; 
-      stroke-dasharray: 10 90; 
-      stroke-linecap: round;
-      animation: flow 2s infinite linear; 
-      filter: url(#glow);
-    }
-  </style>
+  <!-- ============ CONNECTIONS: INPUT -> HIDDEN1 ============ -->
+  <g stroke="url(#lineGrad)" stroke-width="1.3" fill="none">
+    <!-- generated programmatically below in comment; actual paths listed explicitly -->
+    <line x1="90" y1="70"  x2="290" y2="55"/>
+    <line x1="90" y1="70"  x2="290" y2="130"/>
+    <line x1="90" y1="70"  x2="290" y2="205"/>
+    <line x1="90" y1="70"  x2="290" y2="280"/>
+    <line x1="90" y1="70"  x2="290" y2="325"/>
 
-  <!-- Connections (Layer 1 to 2) -->
-  <line x1="100" y1="50"  x2="400" y2="100" class="link-active" style="animation-delay: 0s;"/>
-  <line x1="100" y1="150" x2="400" y2="100" class="link"/>
-  <line x1="100" y1="250" x2="400" y2="100" class="link-active" style="animation-delay: 0.5s;"/>
-  
-  <line x1="100" y1="50"  x2="400" y2="200" class="link"/>
-  <line x1="100" y1="150" x2="400" y2="200" class="link-active" style="animation-delay: 1s;"/>
-  <line x1="100" y1="250" x2="400" y2="200" class="link"/>
+    <line x1="90" y1="150" x2="290" y2="55"/>
+    <line x1="90" y1="150" x2="290" y2="130"/>
+    <line x1="90" y1="150" x2="290" y2="205"/>
+    <line x1="90" y1="150" x2="290" y2="280"/>
+    <line x1="90" y1="150" x2="290" y2="325"/>
 
-  <!-- Connections (Layer 2 to 3) -->
-  <line x1="400" y1="100" x2="700" y2="150" class="link-active" style="animation-delay: 1.5s;"/>
-  <line x1="400" y1="200" x2="700" y2="150" class="link"/>
+    <line x1="90" y1="230" x2="290" y2="55"/>
+    <line x1="90" y1="230" x2="290" y2="130"/>
+    <line x1="90" y1="230" x2="290" y2="205"/>
+    <line x1="90" y1="230" x2="290" y2="280"/>
+    <line x1="90" y1="230" x2="290" y2="325"/>
 
-  <!-- Input Layer Nodes -->
-  <circle cx="100" cy="50"  r="6" class="node-active" style="animation-delay: 0s;"/>
-  <circle cx="100" cy="150" r="6" class="node"/>
-  <circle cx="100" cy="250" r="6" class="node-active" style="animation-delay: 0.5s;"/>
+    <line x1="90" y1="310" x2="290" y2="55"/>
+    <line x1="90" y1="310" x2="290" y2="130"/>
+    <line x1="90" y1="310" x2="290" y2="205"/>
+    <line x1="90" y1="310" x2="290" y2="280"/>
+    <line x1="90" y1="310" x2="290" y2="325"/>
+  </g>
 
-  <!-- Hidden Layer Nodes -->
-  <circle cx="400" cy="100" r="6" class="node-active" style="animation-delay: 1s;"/>
-  <circle cx="400" cy="200" r="6" class="node"/>
+  <!-- ============ CONNECTIONS: HIDDEN1 -> HIDDEN2 ============ -->
+  <g stroke="url(#lineGrad)" stroke-width="1.3" fill="none">
+    <line x1="290" y1="55"  x2="460" y2="45"/>
+    <line x1="290" y1="55"  x2="460" y2="115"/>
+    <line x1="290" y1="55"  x2="460" y2="185"/>
+    <line x1="290" y1="55"  x2="460" y2="255"/>
+    <line x1="290" y1="55"  x2="460" y2="325"/>
 
-  <!-- Output Layer Node -->
-  <circle cx="700" cy="150" r="6" class="node-active" style="animation-delay: 2s;"/>
-  
-  <!-- Text Labels -->
-  <text x="100" y="285" fill="#f4a6c8" font-family="monospace" font-size="12" text-anchor="middle">INPUT</text>
-  <text x="400" y="235" fill="#f4a6c8" font-family="monospace" font-size="12" text-anchor="middle">HIDDEN LAYERS</text>
-  <text x="700" y="185" fill="#f4a6c8" font-family="monospace" font-size="12" text-anchor="middle">OUTPUT</text>
+    <line x1="290" y1="130" x2="460" y2="45"/>
+    <line x1="290" y1="130" x2="460" y2="115"/>
+    <line x1="290" y1="130" x2="460" y2="185"/>
+    <line x1="290" y1="130" x2="460" y2="255"/>
+    <line x1="290" y1="130" x2="460" y2="325"/>
+
+    <line x1="290" y1="205" x2="460" y2="45"/>
+    <line x1="290" y1="205" x2="460" y2="115"/>
+    <line x1="290" y1="205" x2="460" y2="185"/>
+    <line x1="290" y1="205" x2="460" y2="255"/>
+    <line x1="290" y1="205" x2="460" y2="325"/>
+
+    <line x1="290" y1="280" x2="460" y2="45"/>
+    <line x1="290" y1="280" x2="460" y2="115"/>
+    <line x1="290" y1="280" x2="460" y2="185"/>
+    <line x1="290" y1="280" x2="460" y2="255"/>
+    <line x1="290" y1="280" x2="460" y2="325"/>
+
+    <line x1="290" y1="325" x2="460" y2="45"/>
+    <line x1="290" y1="325" x2="460" y2="115"/>
+    <line x1="290" y1="325" x2="460" y2="185"/>
+    <line x1="290" y1="325" x2="460" y2="255"/>
+    <line x1="290" y1="325" x2="460" y2="325"/>
+  </g>
+
+  <!-- ============ CONNECTIONS: HIDDEN2 -> OUTPUT ============ -->
+  <g stroke="url(#lineGrad)" stroke-width="1.3" fill="none">
+    <line x1="460" y1="45"  x2="630" y2="110"/>
+    <line x1="460" y1="45"  x2="630" y2="190"/>
+    <line x1="460" y1="45"  x2="630" y2="270"/>
+
+    <line x1="460" y1="115" x2="630" y2="110"/>
+    <line x1="460" y1="115" x2="630" y2="190"/>
+    <line x1="460" y1="115" x2="630" y2="270"/>
+
+    <line x1="460" y1="185" x2="630" y2="110"/>
+    <line x1="460" y1="185" x2="630" y2="190"/>
+    <line x1="460" y1="185" x2="630" y2="270"/>
+
+    <line x1="460" y1="255" x2="630" y2="110"/>
+    <line x1="460" y1="255" x2="630" y2="190"/>
+    <line x1="460" y1="255" x2="630" y2="270"/>
+
+    <line x1="460" y1="325" x2="630" y2="110"/>
+    <line x1="460" y1="325" x2="630" y2="190"/>
+    <line x1="460" y1="325" x2="630" y2="270"/>
+  </g>
+
+  <!-- ============ TRAVELLING SIGNAL PULSES ============ -->
+  <!-- Input -> Hidden1 pulses -->
+  <circle r="3.2" fill="#FFDFE9" filter="url(#softBlur)">
+    <animateMotion dur="2.6s" repeatCount="indefinite" path="M90,70 L290,130"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#FFDFE9" filter="url(#softBlur)">
+    <animateMotion dur="3.1s" begin="0.4s" repeatCount="indefinite" path="M90,150 L290,55"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.1s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#FFDFE9" filter="url(#softBlur)">
+    <animateMotion dur="2.9s" begin="0.9s" repeatCount="indefinite" path="M90,230 L290,280"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.9s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#FFDFE9" filter="url(#softBlur)">
+    <animateMotion dur="2.4s" begin="1.3s" repeatCount="indefinite" path="M90,310 L290,205"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="1.3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Hidden1 -> Hidden2 pulses -->
+  <circle r="3.2" fill="#FF9EB5" filter="url(#softBlur)">
+    <animateMotion dur="2.5s" begin="0.6s" repeatCount="indefinite" path="M290,130 L460,45"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.5s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#FF9EB5" filter="url(#softBlur)">
+    <animateMotion dur="2.8s" begin="1.1s" repeatCount="indefinite" path="M290,205 L460,255"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.8s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#FF9EB5" filter="url(#softBlur)">
+    <animateMotion dur="3.0s" begin="1.6s" repeatCount="indefinite" path="M290,280 L460,185"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="3.0s" begin="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.2" fill="#FF9EB5" filter="url(#softBlur)">
+    <animateMotion dur="2.3s" begin="2.0s" repeatCount="indefinite" path="M290,55 L460,325"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.3s" begin="2.0s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Hidden2 -> Output pulses -->
+  <circle r="3.4" fill="#FF6FAE" filter="url(#softBlur)">
+    <animateMotion dur="2.2s" begin="0.3s" repeatCount="indefinite" path="M460,45 L630,110"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.2s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.4" fill="#FF6FAE" filter="url(#softBlur)">
+    <animateMotion dur="2.6s" begin="0.9s" repeatCount="indefinite" path="M460,185 L630,190"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.6s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.4" fill="#FF6FAE" filter="url(#softBlur)">
+    <animateMotion dur="2.4s" begin="1.5s" repeatCount="indefinite" path="M460,325 L630,270"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="2.4s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ============ NODES ============ -->
+  <!-- Input layer -->
+  <g>
+    <circle cx="90" cy="70"  r="16" fill="url(#nodeGlow)" opacity="0.55"/>
+    <circle cx="90" cy="70"  r="8" fill="url(#nodeCore)">
+      <animate attributeName="r" values="8;9.5;8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="90" cy="150" r="16" fill="url(#nodeGlow)" opacity="0.55"/>
+    <circle cx="90" cy="150" r="8" fill="url(#nodeCore)">
+      <animate attributeName="r" values="8;9.5;8" dur="2.7s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="90" cy="230" r="16" fill="url(#nodeGlow)" opacity="0.55"/>
+    <circle cx="90" cy="230" r="8" fill="url(#nodeCore)">
+      <animate attributeName="r" values="8;9.5;8" dur="2.5s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="90" cy="310" r="16" fill="url(#nodeGlow)" opacity="0.55"/>
+    <circle cx="90" cy="310" r="8" fill="url(#nodeCore)">
+      <animate attributeName="r" values="8;9.5;8" dur="2.9s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Hidden layer 1 -->
+  <g>
+    <circle cx="290" cy="55"  r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="290" cy="55"  r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.2s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="290" cy="130" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="290" cy="130" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="290" cy="205" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="290" cy="205" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="290" cy="280" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="290" cy="280" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.8s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="290" cy="325" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="290" cy="325" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.3s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Hidden layer 2 -->
+  <g>
+    <circle cx="460" cy="45"  r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="460" cy="45"  r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.5s" begin="0.15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="460" cy="115" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="460" cy="115" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.1s" begin="0.45s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="460" cy="185" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="460" cy="185" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.7s" begin="0.75s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="460" cy="255" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="460" cy="255" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.3s" begin="1.05s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="460" cy="325" r="14" fill="url(#nodeGlow)" opacity="0.5"/>
+    <circle cx="460" cy="325" r="7" fill="url(#nodeCore)">
+      <animate attributeName="r" values="7;8.5;7" dur="2.9s" begin="1.35s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Output layer -->
+  <g>
+    <circle cx="630" cy="110" r="18" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="630" cy="110" r="9" fill="url(#nodeCore)">
+      <animate attributeName="r" values="9;11;9" dur="2.6s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="630" cy="190" r="18" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="630" cy="190" r="9" fill="url(#nodeCore)">
+      <animate attributeName="r" values="9;11;9" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="630" cy="270" r="18" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="630" cy="270" r="9" fill="url(#nodeCore)">
+      <animate attributeName="r" values="9;11;9" dur="2.8s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 </svg>
