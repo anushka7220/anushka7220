@@ -3,7 +3,7 @@
   <br/>
 
   <img 
-    src="https://raw.githubusercontent.com/anushka7220/anushka7220/main/neural_network.svg" 
+    src="https://raw.githubusercontent.com/anushka7220/anushka7220/main/neural_network.svg?v=2"
     width="700"
   />
 
